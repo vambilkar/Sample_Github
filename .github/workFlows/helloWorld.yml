@@ -1,0 +1,13 @@
+name: "Hello_World"
+on: 
+    push:
+        branches:
+            -master
+            -test
+jobs:
+    hello_world:
+        runs-on: windows-latest
+        steps:
+            -name: "print hello world"
+             run: echo "Printing for first time"
+             
