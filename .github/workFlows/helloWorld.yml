@@ -1,11 +1,13 @@
 name: "Hello_World"
+
 on: 
-    push:
-        branches:
-            - master
-            - test
+ push:
+   branches:
+        - master
+        - test
+
 jobs:
-    hello_world:
+  hello_world:
         runs-on: windows-latest
         steps:
             - name: "print hello world"
