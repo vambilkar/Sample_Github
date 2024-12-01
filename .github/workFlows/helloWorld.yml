@@ -2,8 +2,8 @@ name: "Hello_World"
 on: 
     push:
         branches:
-            -master
-            -test
+            - master
+            - test
 jobs:
     hello_world:
         runs-on: windows-latest
